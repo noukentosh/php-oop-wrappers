@@ -1,0 +1,21 @@
+{
+    "name": "noukentosh/php-oop-wrappers",
+    "description": "Object-oriented wrappers over standard functions.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "NoukenTosh",
+            "email": "noukentosh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "config": {
+        "platform": {
+            "php": "7.0.0"
+        }
+    }
+}

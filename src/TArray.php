@@ -4,7 +4,7 @@ namespace PHP;
 
 class TArray{
   public function __construct(){
-    echo "TEST";
+    echo "TEST";//
   }
 }
 

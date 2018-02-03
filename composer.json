@@ -2,6 +2,7 @@
     "name": "noukentosh/php-oop-wrappers",
     "description": "Object-oriented wrappers over standard functions.",
     "type": "library",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "NoukenTosh",

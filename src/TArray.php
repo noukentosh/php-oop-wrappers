@@ -14,7 +14,7 @@ class TArray implements \ArrayAccess, \Iterator{
   public function offsetSet($offset, $value) {
     if (is_null($offset)) {
       $this->container[] = $value;
-      $this->shootEvent('add', $this->length - 1, $value, $null);
+      $this->shootEvent('add', $this->length - 1, $value, null);
     } else {
       $old_value =  $this->container[$offset];
       $this->container[$offset] = $value;
